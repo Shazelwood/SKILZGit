@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <MultiSelectListPreference
+            android:dialogTitle="Skills"
+            android:entries="@array/skills_array"
+            android:entryValues="@array/skills_array"
+            android:key="SKILLS"
+            android:summary="Select Skills"
+            android:title="Skills"/>
+
+        <ListPreference
+            android:dialogTitle="Sports"
+            android:entries="@array/sports_array"
+            android:entryValues="@array/sports_array"
+            android:key="SPORTS"
+            android:summary="Select a Sport"
+            android:title="Sports"/>
+    </PreferenceCategory>
+</PreferenceScreen>

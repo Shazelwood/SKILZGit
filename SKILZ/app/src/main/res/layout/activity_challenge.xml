@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:id="@+id/challenge_layout"
+    android:transitionName="challengeView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/activity_challenge_title"
+        android:padding="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        android:textColor="@color/whitish"
+        android:textSize="36sp"
+        android:text="This is the title for a challenge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/activity_challenge__button"
+        android:text="ACCEPT CHALLENGE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:background="@color/whitish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/activity_challenge_description"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:text="Choose any physical activity you want and try to improve upon your time or score. Give yourself a month to get better at anything from running to swimming to weight lifting (or any other physical activity you can think of!). Post your initial results at the beginning of the month, show your progress with comments, photos, and videos, and then post your end results. Anyone who improves upon their initial time or score wins!, Choose any physical activity you want and try to improve upon your time or score. Give yourself a month to get better at anything from running to swimming to weight lifting (or any other physical activity you can think of!). Post your initial results at the beginning of the month, show your progress with comments, photos, and videos, and then post your end results. Anyone who improves upon their initial time or score wins!"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:transitionName="guideTransition"
+    >
+
+    <ImageView
+        android:id="@+id/item3_image"
+        android:src="@drawable/skilzpro"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/item3_title"
+        android:padding="5dp"
+        android:textSize="24sp"
+        android:text="This is filler text for a IMAGE title that has no point."
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/item3_source"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="PROVIDER"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

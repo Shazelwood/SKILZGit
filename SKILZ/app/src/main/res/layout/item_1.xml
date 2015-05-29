@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:gravity="center"
+    android:transitionName="challengeView"
+    android:id="@+id/challenge_container"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/medalIndicator"
+        android:background="@color/gold"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"/>
+
+
+
+    <TextView
+        android:layout_weight="6"
+        android:id="@+id/challenge_title"
+        android:textSize="24sp"
+        android:lines="1"
+        android:fontFamily="sans-serif-regular"
+        android:textStyle="bold"
+        android:ellipsize="end"
+        android:paddingStart="5dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textColor="@color/black"
+        android:text="CHALLENGE: At vero eos et accusamus et iusto odio dignissimos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/challenge_points"
+        android:fontFamily="sans-serif-regular"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:gravity="center"
+        android:text="15"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

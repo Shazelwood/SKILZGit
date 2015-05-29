@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/light_grey"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/dialog_image"
+        android:src="@drawable/example"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:textSize="20sp"
+            android:id="@+id/dialog_text"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="As an AAU basketball player, the simple things you do can go a long way to boost your performance. Whether it's on or off the court, focusing on details helps you maximize your time practicing and improves the important things that coaches look for during games.
+
+Below are 10 simple tips that every AAU player should adhere to.
+
+1. Work hard every possession. Your energy is contagious and your effort can be a game-changer.
+
+2. Make your teammates better. Make the extra pass, play help defense and know your team's strengths and weaknesses.
+
+3. Do your drills with deliberate intention. Always dribble with your head up, use changes of speed, keep your fingertips on the ball and go hard.
+
+4. Follow BEEF. When doing shooting drills, remember Balance, Eyes, Elbow and Follow Trough to keep your technique on point. Always start close to the basket and gradually move further away when form shooting.
+
+5. Move without the ball. Just because you don't have the ball doesn't mean you aren't involved in the play. Your play can support your teammates and draw defenders away. Always cut hard, keep your hands ready and go back door if the wing is denied.
+
+6. Stay low on defense.  When on the ball, use your hands to block your opponent's vision. Stay in front of and box out your opponent to keep him or her from gaining a strong offensive position.
+
+7. Defense off the ball. The same thing goes for the defensive side of the court as it does for the offensive side. Ball-You-Man, see the ball at all times, bump the cutters and be ready to help.
+
+8. Transition quickly. Transition run wide on the wings after an offensive rebound or change of possession. Push the ball, get down the court quickly and finish.
+
+9. Shoot Every Day. Take 500 shots each day and keep track of how many you make. Catch and shoot. Rip through, take one dribble and shoot, then rip through, take two dribbles and shoot.
+
+10. Jump rope four times a week. Start off jumping for 30 seconds for ten set, and increase the time each week."
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        </ScrollView>
+
+
+
+</LinearLayout>

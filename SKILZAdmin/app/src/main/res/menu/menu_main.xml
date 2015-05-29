@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+    <item android:id="@+id/action_athlete"
+        android:title="@string/action_athlete"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_training"
+        android:title="@string/action_article"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_challenge"
+        android:title="@string/action_challenge"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_nutrition"
+        android:title="@string/action_nutrition"
+        app:showAsAction="never" />
+
+
+
+
+
+</menu>

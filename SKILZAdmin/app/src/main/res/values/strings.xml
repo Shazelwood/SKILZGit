@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SKILZ Admin</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_article">Article</string>
+    <string name="action_nutrition">Nutrition</string>
+    <string name="action_athlete">Athlete</string>
+    <string name="action_challenge">Challenge</string>
+    <string name="action_submit">Submit</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <color name="black">#212121</color>
+    <color name="dark_grey">#b4000000</color>
+    <color name="grey">#BDBDBD</color>
+    <color name="light_grey">#EEEEEE</color>
+    <color name="whitish">#FAFAFA</color>
+    <color name="red">#E53935</color>
+
+    <string-array name="challenge_points">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="challenge_level">
+        <item>Gold</item>
+        <item>Silver</item>
+        <item>Bronze</item>
+    </string-array>
+
+    <string-array name="category_array">
+        <item>Nutrition</item>
+        <item>Article</item>
+        <item>Athlete</item>
+    </string-array>
+
+    <string-array name="view_array">
+        <item>Image</item>
+        <item>No Image</item>
+    </string-array>
+
+    <string-array name="display_array">
+        <item>List</item>
+        <item>Text</item>
+    </string-array>
+
+    <string-array name="skills_array">
+        <item>Endurance</item>
+        <item>Strength</item>
+        <item>Power</item>
+        <item>Speed</item>
+        <item>Agility</item>
+        <item>Flexibility</item>
+        <item>Nerve</item>
+        <item>Durability</item>
+        <item>Hand-Eye Coordination</item>
+        <item>Analytic Aptitude</item>
+    </string-array>
+
+    <string-array name="sports_array">
+        <item>Football</item>
+        <item>Track and Field</item>
+        <item>Basketball</item>
+        <item>Baseball</item>
+        <item>Soccer</item>
+        <item>Wrestling</item>
+        <item>Cross Country</item>
+        <item>Tennis</item>
+        <item>Golf</item>
+        <item>Swimming and Diving</item>
+    </string-array>
+
+    <string name="title_activity_form">FormActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
